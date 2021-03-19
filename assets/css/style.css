@@ -6,7 +6,7 @@
 
 body {
     background-color: #d9dcd6;
-    
+    flex-wrap: wrap;
 }
 
 .header {
@@ -19,10 +19,12 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+    flex-wrap: wrap;
 }
 
 .header div {
@@ -40,6 +42,7 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    flex: 0 1 0;
 }
 
 a {
@@ -58,6 +61,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    flex: 0 1 0;
     
 }
 
@@ -74,8 +78,10 @@ p {
 .content {
     width: 75%;
     display: inline-block;
+    min-width: 60px
     margin-left: 20px;
     flex-wrap: wrap;
+    flex: 3 1 0 ;
 }
 
 .benefits {
